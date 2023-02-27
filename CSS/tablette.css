@@ -1,0 +1,96 @@
+@media (max-width: 992px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /* Filtres */
+
+    .Filtres {
+        width: 90%;
+    }
+
+    #section_filtres{
+        margin-left: 10px;
+    }
+
+    .Information i {
+        margin: 38px 0px 39px 0px;
+    }
+
+    .TitreAside {
+        margin-bottom: -50px;
+        width: 97%;
+        margin-left: 15px;
+    }
+
+    /* Filtres */
+
+    /* Articles-Aside */
+
+    #article-aside {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #PopulaireBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 144px;
+        padding-right: 20px;
+        padding-left: 20px;
+        width: 100%;
+    }
+
+    #Populaire {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 250px;
+        margin: auto;
+    }
+
+    #section_Hébergements{
+        width: 96%;
+    }
+
+    /* Articles-Asides */
+
+    /* Activités */
+
+    .AsideBox {
+        width: 32%;
+        justify-content: space-between;
+    }
+
+    #ActivitésMarseille h2{
+        padding-left: 5px;
+    }
+
+    .ActivitésBox{
+        width: 95%;
+    }
+
+    .ActivitésDiv{
+        height: 290px;
+    }
+
+    .ActivitésDiv img {
+        height: 211px;
+    }
+
+    /* Activités */
+    /* Footer */
+  
+    .footer {
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    /* Footer */
+
+}

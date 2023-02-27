@@ -1,0 +1,452 @@
+body {
+    font-family: "Raleway", sans-serif;
+    max-width: 1400px;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    width: 95%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+nav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 50%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 19px;
+    border-top: 2px solid transparent;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+a:active {
+    border-bottom: 2px solid transparent;
+    color: #0065fc;
+}
+
+nav ul li a:hover {
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+/* Filtres */
+
+#section_filtres h1 {
+    margin-left: 15px;
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+#section_filtres h2 {
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Filtres */ 
+
+.Location {
+    padding: 21px;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 2px solid #f2f2f2;
+}
+
+#searchbar {
+    display: flex;
+    height: auto;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+#searchbar input{
+    font-family: "Raleway";
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid #f2f2f2;
+}
+
+input::placeholder {
+    color: black;
+}
+
+#searchbar input:focus{
+    outline-style: none;
+}
+
+#rechercher_button{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: #0065fc;
+    padding: 21px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #f2f2f2;
+}
+
+.icone_searchbar {
+    display: none;
+}
+
+#filtres{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#filtres h3 {
+    font-size: 18px;
+}
+
+#liste_filtres {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filtres_bloc{
+    display: flex;
+    align-items: center;
+    height: 43px;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
+    border: 2px solid #d4d4d4;
+    cursor: pointer;
+}
+
+#filtres :hover{
+    background-color: #DEEBFF;
+}
+
+.filtres_bloc i{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #0065fc;
+}
+
+#filtres li{
+    font-weight: bold;
+    height: 30px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+}
+
+#filtres a {
+    text-decoration: none;
+    color: black;
+}
+
+#filtres a:hover {
+    text-decoration: none;
+    color: #0065fc;
+}
+
+#section_filtres_end {
+    display: flex;
+    align-items: center;
+    font-family: "Raleway";
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+#section_filtres_end h4 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#section_filtres_end i{
+    color: #0065fc;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: #f2f2f2;
+    align-self: center;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 15px;
+    margin-left: 20px;
+}
+
+/* Information */
+
+/* Articles */
+
+#article-aside {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 98%;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#section_Hébergements {
+    width: 63%;
+    margin: auto;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.Hébergement {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    row-gap: 30px;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+    height: 199px;
+    box-shadow: 1px 1px 12px #555;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+.stars .blue{
+    color: #0065fc;
+}
+
+.stars .grey{
+    color: #f2f2f2;
+}
+
+.Hébergement img {
+    border-radius: 20px 20px 0px 0px;
+    height: 124px;
+    width: 100%;
+    border: 5px solid #ffffff;
+}
+
+.texte {
+    width: 90%;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.texte h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+    margin-top: -5px;
+}
+
+.texte p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.stars {
+    font-size: 13px;
+    color: #0065fc;
+    margin-bottom: 15px;
+}
+
+.AfficherPlus { 
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/* Articles */
+
+.AfficherPlus p{
+    font-weight: bold;
+    font-size: large;
+}
+
+/* Aside */
+
+#Populaire {
+    width: 33%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+.TitreAside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TitreAside h2 {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.TitreAside i {
+    color: #0065fc;
+    margin-right: 27px;
+}
+
+#PopulaireBox {
+    display: flex;
+    height: 497px;
+    width: 93%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AsideBox {
+    display: flex;
+    height: 144px;
+    width: 95%;
+    box-shadow: 1px 1px 12px #555;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.aside-img {
+    width: 40%;
+    height: 100%;
+}
+
+.aside-img img {
+    border-radius: 20px 0px 0px 20px;
+    border: 5px solid #ffffff;
+    width: 100%;
+    height: 100%;
+}
+
+.texteAside {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.texteAside h3 {
+    font-size: 14px;
+}
+
+/* Aside */
+
+/* Activités */
+
+#ActivitésMarseille {
+    height: auto;
+    margin-bottom: 61px;
+}
+
+#ActivitésMarseille h2 {
+    padding-left: 5px;
+}
+
+#ActivitésMarseille p{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.ActivitésBox {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.ActivitésDiv {
+    height: 450px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 21px;
+    background: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 1px 1px 1px rgb(112, 111, 111);
+}
+
+.imageActivités img {
+    width: 100%;
+    height: 389px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Activités */
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 58px;
+}
+
+.footerBox h3 {
+    padding-bottom: 10px;
+}
+
+/* Footer */
